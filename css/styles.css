@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  
+header{
+    background-color: #a6b96f;
+    position: relative;
+    height: 100px;
+}
+
+main{
+    background-image: url(/IMAGENES/Fond.jpg);
+    background-size: cover;
+}
+
+
+nav{
+    position: absolute;
+    left: 394px;
+    right: 394px;
+    bottom: 8px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+
+nav li{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    background-color:#a6b96f
+    
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav img{
+    max-width: 100%;
+    height: 74px;
+    width: 190px;
+    position: relative;
+    right: 100px;
+    top: 70px;
+}
+
+nav li:hover{
+    position: relative;
+    background-color: #bed69e;
+    height: max-content;
+    width: max-content;
+    padding: 20px;
+    margin: 10px;
+    
+    
+
+}
+
+.begin{
+    background-color: white;
+    position: relative;
+    height: 600px;
+    
+
+}
+
+.begin img{
+    max-width: 100%;
+    
+}
+
+.Render-Snake{
+height: 600px;
+left: 900px;
+padding: 10px;
+bottom: 1px;
+position:absolute
+
+
+}
+
+.Logo2{
+    height: 160px;
+    bottom: 300px;
+    padding: 40px;
+    position: absolute
+    
+
+    
+}
+.BOTON{
+    background-color: #7aa32c;
+    
+    width: 280px;
+    height: 40px;
+    border:10px solid ;
+    text-align: center;
+    position: absolute;
+    bottom: 180px;
+    left: 160px;
+    background-image: url(../IMAGENES/black-scales.png);
+    border-radius: 20px;
+    padding: 4px 0px 4px 0px;
+    margin: 10px;
+    
+}
+ 
+
+
+.BOTON2{
+    background-color: #58791c;
+    width: 280px;
+    height: 40px;
+    border:10px solid; 
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 60px;
+    left: 160px;
+    background-image: url(../IMAGENES/);
+    background-size: cover;
+    padding: 4px 0px 4px 0px;
+    margin: 10px;
+    
+}
+    
+.Padre{
+    background-color: #073a19;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin:10px 0 ;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.Features{
+    background-color: #2ca355;
+    height: 1200px;
+    padding: 30px;
+    margin: 60px;
+    margin: 20px
+    border-radius: 20px;
+    border: 3px solid;
+}
+
+.mini-card{
+    
+    background-color: #073a19;
+    width: 500px;
+    border: 2px solid;
+    border-color: white;
+    text-align: justify;
+    box-shadow: 10px 5px 5px black;
+    padding: 40px;
+    text-align: left;
+
+    
+    
+    
+}
+
+
+
+.mini-card p{
+    color: white;
+}
+
+.mini-card h3{
+    color: white;
+    margin: 5px;
+   
+}
+
+
+
+.big-card{
+    background-color: #052b12;
+    width: 300px;
+    
+    border-radius: 10px;
+
+}
+
+
+.big-card img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%; 
+    height: 200px;
+    border: 2px solid white;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+}
+
+
+footer{
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    padding: 10px;
+}
+   
+
+footer p{
+    color: white;
+}
+
+footer img{
+    margin: 10px;
+}
+
+.Personajes{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.Card{
+    position: relative;
+    width: 290px;
+    margin:40px ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 180px 1fr auto;
+    
+}
+
+
+.Card-imagen{
+    position: relative;
+    background-color: #f0f0f0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Card-imagen img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Card-body{
+    background-color: #2ca355;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    
+}
+
+.Card-body p{
+    margin: 10px;
+    color: white;
+}
+
+.Card-body h2{
+    color: white;
+    font-size: 50px;
+}
